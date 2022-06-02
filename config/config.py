@@ -59,7 +59,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
-UPSTREAM_REPO = "https://github.com/TechShreyash/SiestaXMusic"
+UPSTREAM_REPO = "https://github.com/Roninopp/musick"
 UPSTREAM_BRANCH = "main"
 
 # GIT TOKEN ( if your edited repo is private)
@@ -93,8 +93,8 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 # Time sleep duration For Telegram Downloader
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-# Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = "https://github.com/TechShreyash/SiestaXMusic"
+# Your Github Repo.. Will be shown on /vcstart Command
+GITHUB_REPO = "https://github.com/Roninopp/musick"
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "817ef3b667ae41fa904568b4eeaee96d")
